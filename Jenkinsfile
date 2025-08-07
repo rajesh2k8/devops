@@ -7,7 +7,7 @@ pipeline {
     stage('Show Tool Versions') {
       steps {
         sh '''
-          echo "=== Tool Versions ==="
+          echo "=== Tool Versions ===="
           php -v
           composer --version
           node -v
