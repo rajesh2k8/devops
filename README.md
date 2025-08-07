@@ -1,7 +1,7 @@
 # DevOps Academy - Addition Functionality
 
 This repository contains addition functionality implemented in PHP 8.4, demonstrating modern PHP features and best practices.
-- making some changes to test the build
+- making some changes to test the build and added test
 
 ## Features
 
