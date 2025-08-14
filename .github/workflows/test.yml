@@ -16,4 +16,4 @@ jobs:
           php-version: '8.2'
 
       - name: Run inline PHP command
-        run: "echo 'Hello from PHP!';"
+        run: php -r "echo 'Hello from PHP!';"
