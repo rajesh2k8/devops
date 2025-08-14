@@ -19,4 +19,4 @@ jobs:
         run: php -r "echo 'Hello from PHP!';"
 
       - name: Run Script PHP command
-        run: php addition.php
+        run: php addition.php 3, 5
