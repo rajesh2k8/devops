@@ -1,17 +1,12 @@
-name: Run PHP Script
+name: CI
 
-on: push
+on: [push, pull_request]
 
 jobs:
-  run-php:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.2'
-
-      - name: Run addition.php
-        run: php addition.php
+    - uses: actions/checkout@v3
+    - name: Run a one-line script
+      run: echo Hello, world!
