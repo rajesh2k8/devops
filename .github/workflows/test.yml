@@ -17,3 +17,6 @@ jobs:
 
       - name: Run inline PHP command
         run: php -r "echo 'Hello from PHP!';"
+
+      - name: Run Script PHP command
+        run: php -r addition.php
